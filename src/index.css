@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Task list container */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center tasks horizontally */
+  justify-content: center; /* Center tasks vertically */
+  background-color: #0074D9; /* Ocean blue */
+  color: #FFD700; /* Tan (sand) */
+  height: 100vh; /* Full viewport height */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Individual task item */
+.task-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #FFD700; /* Tan border */
+  border-radius: 5px;
+  background-color: #FFFFFF; /* White */
 }
+
