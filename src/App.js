@@ -14,7 +14,7 @@ function App(props) {
       </div>
 
       <button className='button' type="submit">
-        Add Task!
+        Add Task
       </button>
 
       <ul className='task-list'>
